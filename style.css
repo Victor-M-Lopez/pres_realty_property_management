@@ -42,7 +42,7 @@ button:hover {
 }
 
 .container {
-  padding: 4rem 0;
+  padding: 8rem 0;
 }
 
 .row {
@@ -161,7 +161,6 @@ nav {
 
 #about_us {
   position: relative;
-  height: 500px;
 }
 
 .information_container {
@@ -203,6 +202,11 @@ nav {
 }
 
 /* why us */
+#why_us {
+  background-color: #f1f1f1;
+  border-top-left-radius: 32px;
+}
+
 .reasons_container {
   display: flex;
   justify-content: space-between;
@@ -212,6 +216,7 @@ nav {
 }
 
 .reason_box {
+  position: relative;
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -227,15 +232,98 @@ nav {
   display: flex;
   justify-content: center;
   align-items: centers;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   border-radius: 100px;
 }
 
 .reason_img {
   width: 50px;
+  z-index: 99;
 }
 
 .reason-para {
   width: 85%;
   text-align: center;
+}
+
+.circle_overlay {
+  position: absolute;
+  top: -30px;
+  left: 35%;
+  border: 1px solid var(--Deep_Navy_blue);
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+/* services | prices */
+.services--wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service--box {
+  width: 500px;
+  height: 400px;
+  background-color: var(--Deep_Navy_blue);
+  padding: 24px;
+  border-bottom-right-radius: 32px;
+}
+
+.service-wrapper {
+  position: relative;
+  width: 500px;
+}
+
+.service-img {
+  width: 100%;
+  display: block;
+  filter: brightness(0.6);
+  border-top-left-radius: 32px;
+}
+
+.service-price--para,
+.service-price--para2 {
+  position: absolute;
+  left: 24px;
+  color: var(--white-color);
+}
+.service-price--para {
+  top: 24px;
+}
+
+.service-price {
+  font-size: 56px;
+  font-weight: 900;
+}
+
+.service-price--para2 {
+  top: 90px;
+}
+
+.service_name {
+  color: var(--white-color);
+  font-weight: 200;
+  margin-bottom: 32px;
+}
+
+.feature {
+  color: var(--white-color);
+  font-weight: 100;
+  margin-bottom: 24px;
+}
+
+.feature::before {
+  content: '';
+  display: inline-block;
+  background: url('./assets/checkmark.svg');
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  vertical-align: -35%;
 }
