@@ -88,13 +88,19 @@ nav {
   color: #FFF;
 }
 
+#contact_nav--btn {
+  background-color: var(--soft-gold);
+  padding: 8px 32px;
+  border-radius: 24px;
+}
+
 #home-landing_page--video {
   width: 100%;
   height: 100vh;
   object-fit: cover;
   object-position: center;
   display: block;
-  filter: brightness(0.6);
+  filter: brightness(0.5);
 }
 
 .header_text--container {
@@ -116,9 +122,7 @@ nav {
 
 #pricing_btn,
 #contact_btn {
-  color: #000;
   font-size: 16px;
-  background-color: #FFF;
   padding: 16px 40px;
   border-radius: 32px;
   border: none;
@@ -127,6 +131,14 @@ nav {
 
 #pricing_btn {
   margin-left: 24px;
+  background-color: var(--soft-gold);
+  color: var(--white-color);
+}
+
+#contact_btn {
+  color: var(--soft-gold);
+  border: 1px solid var(--soft-gold);
+  background-color: transparent;
 }
 
 .fact {
@@ -146,7 +158,7 @@ nav {
 }
 
 .experience {
-  color: var(--white-color);
+  color: #E74C3C;
   margin-bottom: 16px;
 }
 
@@ -159,52 +171,81 @@ nav {
 
 
 /* about us */
-
 #about_us {
   position: relative;
+  width: 100%;
+  height: 900px;
+  background-color: rgba(var(--Deep_Navy_blue-rgb), 1);
 }
 
 .container--about_us {
-  padding: 4rem 0 8rem 0;
+  padding: 2rem 24px;
 }
 
-.information_container {
-  width: 60%;
-}
-
-.section_header {
-  font-size: 32px;
-  margin-bottom: 32px;
-}
-
-.about_para {
+.about_us--para {
+  color: var(--white-color);
   font-weight: 100;
+  width: 55%;
   line-height: 2rem;
 }
 
-.fact-continued {
+.stats--container {
   position: absolute;
   top: 0;
   right: 24px;
   width: 300px;
   height: 400px;
-  background-color: rgb(var(--Deep_Navy_blue-rgb), 0.8);
 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-.fact-2 {
+.stat--box {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.experience-continued {
-  margin-bottom: 16px;
   color: var(--white-color);
 }
+
+.stat--box h2 {
+  font-size: 64px;
+  margin-bottom: 16px;
+  color: #E74C3C;
+}
+
+.stat--box p {
+  font-weight: 100;
+}
+
+.locations_text {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  color: var(--white-color);
+  width: 100%;
+}
+
+.map--wrapper {
+  width: 60%;
+  min-width: 600px;
+  overflow: hidden;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.map_img {
+  width: 100%;
+  display: block;
+}
+
+
+
 
 /* why us */
 #why_us {
@@ -253,18 +294,21 @@ nav {
 
 .circle_overlay {
   position: absolute;
-  top: -30px;
-  left: 35%;
-  border: 1px solid var(--Deep_Navy_blue);
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  border: 1px solid var(--soft-gold);
+  border-radius: 100px;
+  top: -10px;
+  width: 120px;
+  height: 120px;
 }
 
 
 
 
 /* services | prices */
+#services_prices {
+  background-color: var(--white-color);
+}
+
 .services_header {
   margin-bottom: 8px;
 }
@@ -502,3 +546,5 @@ fieldset {
 .last_text--container p:first-child {
   margin-bottom: 12px;
 }
+
+
