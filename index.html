@@ -40,11 +40,9 @@
   </header>
 
   <section id="about_us">
-    <div class="container">
+    <div class="container--about_us">
       <div class="row">
-        <div class="information_container">
-          <h1 class="section_header">Our Story</h1>
-          
+        <div class="information_container">          
           <p class="about_para">
             For over 50 years, our property management company 
             has specialized in providing exceptional service and 
@@ -116,7 +114,8 @@
   <section id="services/prices">
     <div class="container">
       <div class="row">
-        <h1 class="section_header centered_header">Services and Prices</h1>
+        <h1 class="section_header centered_header services_header">Services and Prices</h1>
+        <h2 class="section_sub-heading">Tailored Property Management Services to Meet Your Needs</h2>
 
         <div class="services--wrapper">
           <div class="services--container">
@@ -142,7 +141,7 @@
 
           <div class="services--container">
             <figure class="service-wrapper">
-              <img src="./assets/AdobeStock_426724173.jpeg" alt="" class="service-img">
+              <img src="./assets/AdobeStock_472478417.jpeg" alt="" class="service-img">
               <p class="service-price--para"><span class="service-price">Project Based</span></p>
             </figure>
             
@@ -153,13 +152,48 @@
               <p class="feature">Prompt Repairs</p>
               <p class="feature">Preventative Maintenance</p>
               <p class="feature">Seasonal Inspections</p>
-              <p class="feature">Services Coordinator</p>
+              <p class="feature">Service Coordinator</p>
               <p class="feature">Renovation & Remodeling</p>
 
               <a href="#" class="learn_more">Learn More</a>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container contact_container">
+      <div class="contact_img--container">
+        <div class="contact_img"></div>
+        <h2 class="contact_text">Connect with Your Property Management Experts!</h2>
+
+        <ul class="contact_info--list">
+          <li class="email_link"><a href="#" class="contact_link">presrealty@comcast.com</a></li>
+          <li class="phone_link"><a href="#" class="contact_link">301-368-4047</a></li>
+        </ul>
+        
+        <form action="#" id="contact_form">
+          <fieldset>
+            <div class="field_group">
+              <label for="name" class="input_label">Name</label>
+              <input type="text" name="name" id="name">
+            </div>
+              
+            <div class="field_group">
+              <label for="email" class="input_label">Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+
+            <div class="field_group">
+               <label for="message" class="input_label">Your Message</label>
+               <textarea name="message" id="message" rows="5"></textarea>
+            </div>
+          </fieldset>
+
+          <button id="send_btn">Send</button>
+         </form>
       </div>
     </div>
   </section>
