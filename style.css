@@ -15,7 +15,7 @@
   --Deep_Navy_blue-rgb: 44, 62, 80;
   --white-color-rgb: 255, 255, 255;
   --black-color-rgb: 30, 30, 30;
-  --soft-gold-rgb: rgb(241, 196, 15);
+  --soft-gold-rgb: 241, 196, 15;
 }
 
 /* General, reusable */
@@ -68,8 +68,9 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  padding: 24px;
+  padding: 16px 24px;
   z-index: 100;
+  background-color: rgba(var(--black-color-rgb), 0.8);
 }
 
 .nav_container {
@@ -366,10 +367,13 @@ nav {
 
 
 /* contact */
+#contact {
+  position: relative;
+}
 
 .contact_img--container {
   position: relative;
-  height: 600px;
+  height: 700px;
 }
 
 .contact_img {
@@ -379,7 +383,7 @@ nav {
   background-size: cover;
   background-attachment: fixed;
   filter: brightness(0.5);
-  height: 600px;
+  height: 700px;
 }
 
 .contact_text {
@@ -431,7 +435,7 @@ nav {
 #contact_form {
   position: absolute;
   background-color: rgba(var(--Deep_Navy_blue-rgb), 0.9);
-  border-radius: 32px;
+  border-radius: 16px;
   top: 10%;
   right: 10%;
   width: 400px;
@@ -485,4 +489,16 @@ fieldset {
 
 .contact_container {
   padding: 4rem 0 0 0;
+}
+
+.last_text--container {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: var(--white-color);
+  font-size: 12px;
+}
+
+.last_text--container p:first-child {
+  margin-bottom: 12px;
 }
