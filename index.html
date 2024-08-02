@@ -14,196 +14,78 @@
         <img src="./assets/company_logo.svg" alt="" id="company_logo">
 
         <ul class="nav_list">
-          <li class="nav_link"><a href="#about_us">About</a></li>
-          <li class="nav_link"><a href="#">Services</a></li>
-          <li class="nav_link"><a href="#">Prices</a></li>
-          <li class="nav_link"><a href="#" id="contact_nav--btn">Contact</a></li>
+          <ul class="nav_list--link"><a href="#" class="nav_link">about</a></ul>
+          <ul class="nav_list--link"><a href="#" class="nav_link">services</a></ul>
+          <ul class="nav_list--link"><a href="#" class="nav_link">prices</a></ul>
+          <ul class="nav_list--link"><a href="#" class="nav_link--contact">contact</a></ul>
         </ul>
       </div>
     </nav>
 
-    <video src="./assets/AdobeStock_379794465.mp4" playsinline preload="auto" autoplay muted loop id="home-landing_page--video"></video>
+    <video src="./assets/AdobeStock_379794465.mp4" autoplay loop muted id="home_video"></video>
 
-    <div class="header_text--container">
-      <h1 class="web_title">PRESIDENTIAL REALTY INC.</h1>
+    <div class="header_info--container">
+      <h1 id="web_title">PRESIDENTIAL REALTY INC.</h1>
 
-      <h2 class="sub-heading">Excellence in Property Management, Decades in the Making</h2>
-
-      <button id="contact_btn">See Prices</button>
-      <a href="#" id="pricing_btn">Manage My Property</a>
+      <a href="#" id="header_prices--btn">See Prices</a>
+      <a href="#" id="header_contact--btn">Manage My Property</a>
     </div>
 
-    <div class="fact">
-      <h3 class="fact_stat experience">50</h3>
-      <p class="fact_para">Years in the business</p>
-    </div>
+    
+    <h2 class="header_sub-heading">
+      Excellence in Property Management
+      Decades in the Making
+    </h2>
   </header>
 
-  <section id="about_us">
-    <div class="container--about_us">
-      <p class="about_us--para">
-        For over 50 years, our property management company 
-        has specialized in providing exceptional service and 
-        expertise in managing residential properties. With a 
-        diverse portfolio of over 500 homes, apartments, and 
-        condos, we have built a reputation for reliability and 
-        professionalism. Our longstanding commitment to excellence            ensures that each property is managed with the utmost care, 
-        delivering outstanding results for property owners and residents alike. 
-        Trust us to be your partner in residential property management, 
-        where our decades of experience and proven track record speak for 
-        themselves.
-      </p>
-
-      <div class="stats--container">
-        <div class="stat--box">
-          <h2>40</h2>
-          <p>Years Licenced (Broker, CPM)</p>
-        </div>
-
-        <div class="stat--box">
-          <h2>500+</h2>
-          <p>Properties Managed</p>
-        </div>
-      </div>
-
-      <h3 class="locations_text">
-        Serving <strong>Montgomery County </strong>, <strong>Prince George County</strong>, and <strong>Washington D.C</strong>.
-      </h3>
-
-      <figure class="map--wrapper">
-        <img src="./assets/locations.svg" alt="" class="map_img">
-      </figure>
-     </div>
-    </section>
-
-  <section id="why_us">
+  <section id="about">
     <div class="container">
       <div class="row">
-        <h1 class="section_header centered_header">What sets us apart</h1>
-
-        <div class="reasons_container">
-          <div class="reason_box">
-            <figure class="img--wrapper">
-              <div class="circle_overlay"></div>
-              <img src="./assets/discount.svg" alt="" class="reason_img">
-            </figure>
-
-            <p class="reason-para">discount for multiple units.</p>
+        <div class="stats--container">
+          <div class="stat-box">
+            <p class="stat">50</p>
+            <p class="stat--para">Years in the business</p>
           </div>
 
-          <div class="reason_box">
-            <figure class="img--wrapper">
-              <div class="circle_overlay"></div>
-              <img src="./assets/handshake.svg" alt="" class="reason_img">
-            </figure>
-
-            <p class="reason-para">percentage negotiable over $3,000 rent.</p>
+          <div class="stat-box">
+            <p class="stat">40</p>
+            <p class="stat--para">
+              Years Licensed 
+              (Real Estate Broker, CMP)
+            </p>
           </div>
 
-          <div class="reason_box">
-            <figure class="img--wrapper">
-              <div class="circle_overlay"></div>
-              <img src="./assets/partnered.svg" alt="" class="reason_img">
-            </figure>
-
-            <p class="reason-para">Partnered with quality agents and contractors for all your needs.</p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="services_prices">
-    <div class="container">
-      <div class="row">
-        <h1 class="section_header centered_header services_header">Services and Prices</h1>
-        <h2 class="section_sub-heading">Tailored Property Management Services to Meet Your Needs</h2>
-
-        <div class="services--wrapper">
-          <div class="services--container">
-            <figure class="service-wrapper">
-              <img src="./assets/AdobeStock_240329133.jpeg" alt="" class="service-img">
-              <p class="service-price--para"><span class="service-price">10%</span></p>
-              <p class="service-price--para2">of months rent</p>
-            </figure>
-            
-            <div class="service--box">
-              <h2 class="service_name">PROPERTY MANAGEMENT</h2>
-              
-              
-              <p class="feature">Reliable Management</p>
-              <p class="feature">Tenant Relations</p>
-              <p class="feature">Maintenance and Repairs</p>
-              <p class="feature">Property Inspections</p>
-              <p class="feature">Rent Collection</p>
-
-              <a href="#" class="learn_more">Learn More</a>
-            </div>
-          </div>
-
-          <div class="services--container">
-            <figure class="service-wrapper">
-              <img src="./assets/AdobeStock_472478417.jpeg" alt="" class="service-img">
-              <p class="service-price--para"><span class="service-price">Project Based</span></p>
-            </figure>
-            
-            <div class="service--box box2">
-              <h2 class="service_name">MAINTENANCE AND REPAIRS</h2>
-              
-              
-              <p class="feature">Prompt Repairs</p>
-              <p class="feature">Preventative Maintenance</p>
-              <p class="feature">Seasonal Inspections</p>
-              <p class="feature">Service Coordinator</p>
-              <p class="feature">Renovation & Remodeling</p>
-
-              <a href="#" class="learn_more">Learn More</a>
-            </div>
+          <div class="stat-box">
+            <p class="stat">500+</p>
+            <p class="stat--para">Properties Managed</p>
           </div>
         </div>
+
+        <h3 class="about-text">
+          For over 50 years, our property management company 
+          has specialized in providing exceptional service 
+          and expertise in managing residential properties. 
+          With a diverse portfolio of over 500 homes, 
+          apartments, and condos, we have built a reputation 
+          for reliability and professionalism. Our 
+          longstanding commitment to excellence ensures that 
+          each property is managed with the utmost care, 
+          delivering outstanding results for property owners 
+          and residents alike. Trust us to be your partner in 
+          residential property management, where our decades 
+          of experience and proven track record speak for themselves.
+        </h3>
+      </div>
+      <div class="map--wrapper">
+        <img src="./assets/location.svg" alt="" id="map">
+
+        <h4 class="locations-text">Serving 
+          <strong>Montgomery County</strong>, 
+          <strong>Prince George's County</strong>, and 
+          <strong>District of Colombia</strong></h4>
       </div>
     </div>
   </section>
 
-  <section id="contact">
-    <div class="container contact_container">
-      <div class="contact_img--container">
-        <div class="contact_img"></div>
-        <h2 class="contact_text">Connect with Your Property Management Experts!</h2>
-
-        <ul class="contact_info--list">
-          <li class="email_link"><a href="#" class="contact_link">presrealty@comcast.com</a></li>
-          <li class="phone_link"><a href="#" class="contact_link">301-368-4047</a></li>
-        </ul>
-        
-        <form action="#" id="contact_form">
-          <fieldset>
-            <div class="field_group">
-              <label for="name" class="input_label">Name</label>
-              <input type="text" name="name" id="name">
-            </div>
-              
-            <div class="field_group">
-              <label for="email" class="input_label">Email</label>
-              <input type="email" name="email" id="email">
-            </div>
-
-            <div class="field_group">
-               <label for="message" class="input_label">Your Message</label>
-               <textarea name="message" id="message" rows="5"></textarea>
-            </div>
-          </fieldset>
-
-          <button id="send_btn">Send</button>
-         </form>
-      </div>
-    </div>
-    
-    <div class="last_text--container">
-      <p>Presidential Realty Inc. 2024. All rights reserved</p>
-      <p>Web Design: Victor Lopez</p>
-    </div>
-  </section>
 </body>
 </html>
