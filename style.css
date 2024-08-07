@@ -347,7 +347,7 @@ nav {
 }
 
 .contact--container {
-  background-image: url('./assets/AdobeStock_426724173.jpeg');
+  background-image: url('./assets/contact_img.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -468,7 +468,7 @@ input, textarea {
   overflow: hidden;
   width: 60%;
   height: 600px;
-  background-image: url(./assets/learn_more--house.jpeg);
+  background-image: url(./assets/learn_more--house.webp);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
