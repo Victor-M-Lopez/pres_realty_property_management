@@ -454,3 +454,22 @@ input, textarea {
   margin-right: 12px;
   vertical-align: -20%;
 }
+
+
+
+
+
+
+/* learn more | Property Management */
+.learn_more-img {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  overflow: hidden;
+  width: 60%;
+  height: 600px;
+  background-image: url(./assets/learn_more--house.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
