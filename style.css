@@ -472,4 +472,84 @@ input, textarea {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  filter: brightness(0.6);
+  border-bottom-left-radius: 32px;
+}
+
+.title--container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--white-color);
+  left: 32px;
+}
+
+.learn_more--title {
+  font-size: 60px;
+  margin-bottom: 12px;
+}
+
+.statement {
+  position: absolute;
+  color: var(--white-color);
+  bottom: 24px;
+  right: 32px;
+  width: 500px;
+  text-align: end;
+  line-height: 1.5rem;
+}
+
+.service_keypoints--container {
+}
+
+.service_icon--wrapper {
+  border: 1px solid var(--light-red);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.icon_img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.line {
+  width: 200px;
+  border: .5px solid var(--light-red);
+}
+
+.keypoint--box {
+  display: flex;
+  align-items: center;
+}
+
+.keypoint--text {
+  position: absolute;
+  color: var(--white-color);
+  font-weight: 200;
+  margin-left: 16px;
+  width: 600px;
+  padding: 12px;
+  line-height: 1.5rem;
+}
+
+.keypoint {
+  list-style: disc;
+  margin-bottom: 12px;
+}
+
+.keypoint--list {
+  margin-top: 12px;
+  margin-left: 32px;
+  width: 400px;
+}
+
+.keypoint_sub-text {
+  color: var(--soft-gold);
+  font-weight: 200;
 }
