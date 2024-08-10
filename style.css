@@ -461,3 +461,97 @@ input, textarea {
 
 
 /* learn more | Property Management */
+.top_page--text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--white-color);
+  left: 32px;
+}
+
+.learn_more--title {
+  font-size: 60px;
+}
+
+.learn_more--sub_title {
+  font-weight: 300;
+}
+
+.read_more--img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80%;
+  height: 80%;
+  background-image: url('./assets/learn_more--house.webp');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(0.6);
+  border-bottom-left-radius: 60px;
+}
+
+.first_statement {
+  position: absolute;
+  bottom: 60px;
+  right: 32px;
+  width: 600px;
+  color: var(--white-color);
+  text-align: right;
+  font-size: 20px;
+}
+
+.feature--box {
+  position: relative;
+  display: flex;
+  height: 400px;
+  align-items: center;
+}
+
+.icon--wrapper {
+  border: 1px solid var(--light-red);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.feature--icon {
+  width: 50px;
+  height: 50px;
+}
+
+.line {
+  width: 200px;
+  border: 0.5px solid var(--light-red);
+}
+
+.feature-text--container {
+  position: absolute;
+  left: 320px;
+  bottom: -47.5%;
+  width: 60%;
+  height: 400px;
+  color: var(--white-color);
+  font-weight: 200;
+}
+
+.feature_para {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.feature_point {
+  list-style: disc;
+  margin-left: 32px;
+  width: 500px;
+  margin-top: 16px;
+  line-height: 1.5rem;
+}
+
+.yellow_strong {
+  color: var(--soft-gold);
+  font-weight: 200;
+}
