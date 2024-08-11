@@ -501,6 +501,10 @@ input, textarea {
   font-size: 20px;
 }
 
+.feature--container {
+  position: relative;
+}
+
 .feature--box {
   position: relative;
   display: flex;
@@ -579,4 +583,20 @@ input, textarea {
 .last_statement {
   color: var(--white-color);
   text-align: center;
+}
+
+.shape1 {
+  position: absolute;
+}
+
+.shape2 {
+  position: absolute;
+  right: 0;
+  top: 180%;
+}
+
+.shape3 {
+  position: absolute;
+  left: 0;
+  top: 240%;
 }
