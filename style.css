@@ -290,14 +290,23 @@ nav {
 }
 
 .service_img--wrapper {
+  position: relative;
   width: 400px;
   height: 200px;
 }
 
 .service_img {
   width: 100%;
-  filter: brightness(0.8);
+  filter: brightness(0.6);
   display: block;
+}
+
+.service_price {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: var(--white-color);
+  font-size: 48px;
 }
 
 .service_info--container {
