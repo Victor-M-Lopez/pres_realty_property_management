@@ -478,20 +478,6 @@ input, textarea {
   font-weight: 300;
 }
 
-.read_more--img {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 80%;
-  height: 80%;
-  background-image: url('./assets/learn_more--house.webp');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  filter: brightness(0.6);
-  border-bottom-left-radius: 60px;
-}
-
 .first_statement {
   position: absolute;
   bottom: 60px;
@@ -500,6 +486,7 @@ input, textarea {
   color: var(--white-color);
   text-align: right;
   font-size: 20px;
+  line-height: 2rem;
 }
 
 .feature--container {
@@ -574,6 +561,7 @@ input, textarea {
   margin-left: 32px;
   margin-top: 12px;
   width: 500px;
+  line-height: 1.5rem;
 }
 
 .feature_list strong {
@@ -602,4 +590,26 @@ input, textarea {
   position: absolute;
   left: 0;
   top: 215%;
+}
+.property_management--img {
+  background-image: url('./assets/learn_more--house.webp');
+}
+
+.property_management--img,
+.maintenance--img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80%;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(0.5);
+  border-bottom-left-radius: 60px;
+}
+
+/* learn more maintenance / repairs */
+.maintenance--img {
+  background-image: url('./assets/home_repairs.webp');
 }
