@@ -628,3 +628,31 @@ input, textarea {
 .maintenance--img {
   background-image: url('./assets/home_repairs.webp');
 }
+
+
+footer {
+  background-color: var(--light-red);
+}
+
+.footer_contact_info--container {
+  border: 1px solid white;
+}
+
+.contact_footer--list,
+.contact_footer--list li a {
+  color: var(--white-color);
+}
+
+footer {
+  position: relative;
+  background-color: var(--light-red);
+}
+
+.copyright_information {
+  position: absolute;
+  bottom: 8px;
+  left: 4px;
+  color: var(--white-color);
+  font-weight: 100;
+  font-size: 12px;
+}
