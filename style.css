@@ -129,15 +129,20 @@ nav.scrolled {
   width: 300px;
   background-color: #1e1e1e;
   z-index: 100;
+  visibility: hidden;
 
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
+#nav_modal .modal_visible {
+  visibility: visible;
+}
+
 #modal_exit-btn {
   position: absolute;
-  right: 24px;
+  right: 32px;
   top: 24px;
   background-color: transparent;
   border: none;
