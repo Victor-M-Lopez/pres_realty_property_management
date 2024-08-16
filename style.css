@@ -728,6 +728,10 @@ footer {
   .icon--box {
     width: 100%;
   }
+
+  body.no-scroll {
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 850px) {
@@ -813,6 +817,10 @@ footer {
     flex-direction: column;
     gap: 54px;
     align-items: center;
+  }
+
+  .contact--container {
+    background-attachment: scroll;
   }
 }
 
