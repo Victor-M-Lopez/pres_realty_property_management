@@ -778,7 +778,8 @@ footer {
     flex-direction: column-reverse;
   }
 
-  .property_management--img {
+  .property_management--img,
+  .maintenance--img {
     background-attachment: scroll;
   }
 }
