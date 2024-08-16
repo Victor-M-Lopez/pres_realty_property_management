@@ -831,6 +831,10 @@ footer {
     width: 30px;
     height: 30px;
   }
+
+  .contact_header {
+    top: 56px;
+  }
 }
 
 @media (max-width: 500px) {
