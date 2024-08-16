@@ -822,6 +822,15 @@ footer {
   .contact--container {
     background-attachment: scroll;
   }
+
+  .container {
+    padding: 6rem 0;
+  }
+
+  #company_logo {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media (max-width: 500px) {
