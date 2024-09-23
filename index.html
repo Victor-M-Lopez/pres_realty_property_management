@@ -1,240 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="./script.js" defer></script>
-  <title>Presidential Realty</title>
-</head>
-<body>
-  <header id="home">
-    <nav id="nav_bar">
-      <div class="nav_container">
-        <a href="#home"><img src="./assets/company_logo.svg" alt="" id="company_logo"></a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="./script.js" defer></script>
+		<title>Presidential Realty</title>
+	</head>
+	<body>
+		<header id="home">
+			<nav id="nav_bar">
+				<div class="nav_container">
+					<a href="#home"
+						><img src="./assets/company_logo.svg" alt="" id="company_logo"
+					/></a>
 
-        <ul class="nav_list">
-          <ul class="nav_list--link"><a href="#about" class="nav_link">ABOUT</a></ul>
-          <ul class="nav_list--link"><a href="#services_prices" class="nav_link">SERVICES</a></ul>
-          <ul class="nav_list--link"><a href="#services_prices" class="nav_link">PRICES</a></ul>
-          <ul class="nav_list--link"><a href="#contact" class="nav_link--contact">CONTACT</a></ul>
-        </ul>
+					<ul class="nav_list">
+						<ul class="nav_list--link">
+							<a href="#about" class="nav_link">ABOUT</a>
+						</ul>
+						<ul class="nav_list--link">
+							<a href="#services_prices" class="nav_link">SERVICES</a>
+						</ul>
+						<ul class="nav_list--link">
+							<a href="#services_prices" class="nav_link">PRICES</a>
+						</ul>
+						<ul class="nav_list--link">
+							<a href="#contact" class="nav_link--contact">CONTACT</a>
+						</ul>
+					</ul>
 
-        <button id="hamburger-btn">
-          <img src="./assets/grid_icon.svg" alt="" class="hamburger-btn_icon">
-        </button>
-      </div>
-    </nav>
+					<button id="hamburger-btn">
+						<img
+							src="./assets/grid_icon.svg"
+							alt=""
+							class="hamburger-btn_icon"
+						/>
+					</button>
+				</div>
+			</nav>
 
-    <div id="nav_modal">
-      <button id="modal_exit-btn">
-        <img src="./assets/exit_icon.svg" alt="">
-      </button>
+			<div id="nav_modal">
+				<button id="modal_exit-btn">
+					<img src="./assets/exit_icon.svg" alt="" />
+				</button>
 
-      <ul class="modal_list">
-        <li class="modal_link"><a href="#">Home</a></li>
-        <li class="modal_link"><a href="./index.html#about">About</a></li>
-        <li class="modal_link"><a href="./index.html#services_prices">Services | Prices</a></li>
-        <li class="modal_link"><a href="./index.html#contact">Contact</a></li>
-      </ul>
-    </div>
+				<ul class="modal_list">
+					<li class="modal_link"><a href="#">Home</a></li>
+					<li class="modal_link"><a href="./index.html#about">About</a></li>
+					<li class="modal_link">
+						<a href="./index.html#services_prices">Services | Prices</a>
+					</li>
+					<li class="modal_link"><a href="./index.html#contact">Contact</a></li>
+				</ul>
+			</div>
 
-    <video src="./assets/AdobeStock_379794465.mp4" playsinline preload="auto" autoplay muted loop id="home_video"></video>
+			<video
+				src="./assets/AdobeStock_379794465.mp4"
+				playsinline
+				preload="auto"
+				autoplay
+				muted
+				loop
+				id="home_video"
+			></video>
 
-    <div class="header_info--container">
-      <h1 id="web_title">PRESIDENTIAL REALTY INC.</h1>
+			<div class="header_info--container">
+				<h1 id="web_title">PRESIDENTIAL REALTY INC.</h1>
 
-      <a href="#" id="header_prices--btn">Contact Us</a>
-      <a href="#services_prices" id="header_contact--btn">See Prices</a>
-    </div>
+				<a href="#" id="header_prices--btn">Contact Us</a>
+				<a href="#services_prices" id="header_contact--btn">See Prices</a>
+			</div>
 
-    
-    <h2 class="header_sub-heading">
-      Excellence in Property Management
-      Decades in the Making
-    </h2>
-  </header>
+			<h2 class="header_sub-heading">
+				Excellence in Property Management Decades in the Making
+			</h2>
+		</header>
 
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="stats--container">
-          <div class="stat-box">
-            <p class="stat">50</p>
-            <p class="stat--para">Years in the business</p>
-          </div>
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="stats--container">
+						<div class="stat-box">
+							<p class="stat">50</p>
+							<p class="stat--para">Years in the business</p>
+						</div>
 
-          <div class="stat-box">
-            <p class="stat">40</p>
-            <p class="stat--para">
-              Years Licensed 
-              (Real Estate Broker, CMP)
-            </p>
-          </div>
+						<div class="stat-box">
+							<p class="stat">40</p>
+							<p class="stat--para">Years Licensed (Real Estate Broker, CPM)</p>
+						</div>
 
-          <div class="stat-box">
-            <p class="stat">500+</p>
-            <p class="stat--para">Properties Managed</p>
-          </div>
-        </div>
+						<div class="stat-box">
+							<p class="stat">500+</p>
+							<p class="stat--para">Properties Managed</p>
+						</div>
+					</div>
 
-        <h3 class="about-text">
-          For over 50 years, our property management company 
-          has specialized in providing exceptional service 
-          and expertise in managing residential properties. 
-          With a diverse portfolio of over 500 homes, 
-          apartments, and condos, we have built a reputation 
-          for reliability and professionalism. Our 
-          longstanding commitment to excellence ensures that 
-          each property is managed with the utmost care, 
-          delivering outstanding results for property owners 
-          and residents alike. Trust us to be your partner in 
-          residential property management, where our decades 
-          of experience and proven track record speak for themselves.
-        </h3>
-      </div>
-      <div class="map--wrapper">
-        <img src="./assets/location.svg" alt="" id="map">
+					<h3 class="about-text">
+						For over 50 years, our property management company has specialized
+						in providing exceptional service and expertise in managing
+						residential properties. With a diverse portfolio of over 500 homes,
+						apartments, and condos, we have built a reputation for reliability
+						and professionalism. Our longstanding commitment to excellence
+						ensures that each property is managed with the utmost care,
+						delivering outstanding results for property owners and residents
+						alike. Trust us to be your partner in residential property
+						management, where our decades of experience and proven track record
+						speak for themselves.
+					</h3>
+				</div>
+				<div class="map--wrapper">
+					<img src="./assets/location.svg" alt="" id="map" />
 
-        <h4 class="locations-text">Serving 
-          <strong>Montgomery County</strong>, 
-          <strong>Prince George's County</strong>, and 
-          <strong>District of Colombia</strong></h4>
-      </div>
-    </div>
-  </section>
+					<h4 class="locations-text">
+						Serving <strong>Montgomery County</strong>,
+						<strong>Prince George's County</strong>, and
+						<strong>District of Colombia</strong>
+					</h4>
+				</div>
+			</div>
+		</section>
 
-  <section id="unique">
-    <div class="container">
-      <div class="row">
-        <h2 class="header">What sets us apart</h2>
-        <p class="sub_header">Redefining Property Management with Unique Solutions</p>
+		<section id="unique">
+			<div class="container">
+				<div class="row">
+					<h2 class="header">What sets us apart</h2>
+					<p class="sub_header">
+						Redefining Property Management with Unique Solutions
+					</p>
 
-        <div class="unique_icon--container">
-          <div class="icon--box">
-            <figure class="icon--figure">
-              <img src="./assets/discount.svg" alt="" class="icon">
-            </figure>
-            
-            <p class="unique--para">Discount for multiple units</p>
-          </div>
+					<div class="unique_icon--container">
+						<div class="icon--box">
+							<figure class="icon--figure">
+								<img src="./assets/discount.svg" alt="" class="icon" />
+							</figure>
 
-          <div class="icon--box">
-            <figure class="icon--figure">
-              <img src="./assets/handshake.svg" alt="" class="icon">
-            </figure>
-            
-            <p class="unique--para">Percentage negotiable over $3,000 rent</p>
-          </div>
+							<p class="unique--para">Discount for multiple units</p>
+						</div>
 
-          <div class="icon--box">
-            <figure class="icon--figure">
-              <img src="./assets/partnered.svg" alt="" class="icon">
-            </figure>
-            
-            <p class="unique--para">
-              Partnered with quality agents and contractors
-              for all your needs
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+						<div class="icon--box">
+							<figure class="icon--figure">
+								<img src="./assets/handshake.svg" alt="" class="icon" />
+							</figure>
 
-  <section id="services_prices">
-    <div class="container">
-      <div class="row">
-        <h2 class="header">Service Plans & Pricing Transparency</h2>
-        <p class="sub_header">Value-driven property management with comprehensive care</p>
-        
-        <div class="services--container">
-          <div class="service--box">
-            <figure class="service_img--wrapper">
-              <img src="./assets/learn_more--house.webp" alt="" class="service_img" loading="lazy">
-              <div class="service_price">10% of rent</div>
-            </figure>
+							<p class="unique--para">Percentage negotiable over $3,000 rent</p>
+						</div>
 
-            <div class="service_info--container">
-              <h3 class="service_name">PROPERTY MANAGEMENT</h3>
+						<div class="icon--box">
+							<figure class="icon--figure">
+								<img src="./assets/partnered.svg" alt="" class="icon" />
+							</figure>
 
-              <ul class="service_list">
-                <li class="service_feature">Reliable Management</li>
-                <li class="service_feature">Tenant Relations</li>
-                <li class="service_feature">Maintenance & Repairs</li>
-                <li class="service_feature">Property Inspection</li>
-                <li class="service_feature">Rent Collection</li>
-              </ul>
+							<p class="unique--para">
+								Partnered with quality agents and contractors for all your needs
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-              <a href="./property-management-services.html" class="learn_more">Learn more</a>
-            </div>
-          </div>
+		<section id="services_prices">
+			<div class="container">
+				<div class="row">
+					<h2 class="header">Service Plans & Pricing Transparency</h2>
+					<p class="sub_header">
+						Value-driven property management with comprehensive care
+					</p>
 
-          <div class="service--box">
-            <figure class="service_img--wrapper">
-              <img src="./assets/home_repairs.webp" alt="" class="service_img" loading="lazy">
-              <div class="service_price">Based on Project Scope</div>
-            </figure>
+					<div class="services--container">
+						<div class="service--box">
+							<figure class="service_img--wrapper">
+								<img
+									src="./assets/learn_more--house.webp"
+									alt=""
+									class="service_img"
+									loading="lazy"
+								/>
+								<div class="service_price">10% of rent</div>
+							</figure>
 
-            <div class="service_info--container">
-              <h3 class="service_name">Maintenance & Repairs</h3>
+							<div class="service_info--container">
+								<h3 class="service_name">PROPERTY MANAGEMENT</h3>
 
-              <ul class="service_list">
-                <li class="service_feature">Preventative Maintenance</li>
-                <li class="service_feature">Propt Repairs </li>
-                <li class="service_feature">Quality Contractors</li>
-                <li class="service_feature">Services Coordinator</li>
-                <li class="service_feature">Custom Solutions</li>
-              </ul>
+								<ul class="service_list">
+									<li class="service_feature">Reliable Management</li>
+									<li class="service_feature">Tenant Relations</li>
+									<li class="service_feature">Maintenance & Repairs</li>
+									<li class="service_feature">Property Inspection</li>
+									<li class="service_feature">Rent Collection</li>
+								</ul>
 
-              <a href="./home-maintenance-repairs.html" class="learn_more">Learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+								<a href="./property-management-services.html" class="learn_more"
+									>Learn more</a
+								>
+							</div>
+						</div>
 
-  <section id="contact">
-    <div class="contact--container"></div>
-    <h2 class="contact_header">Connect with Your Property Management Experts!</h2>
+						<div class="service--box">
+							<figure class="service_img--wrapper">
+								<img
+									src="./assets/home_repairs.webp"
+									alt=""
+									class="service_img"
+									loading="lazy"
+								/>
+								<div class="service_price">Based on Project Scope</div>
+							</figure>
 
-    <form action="#">
-      <fieldset>
-        <div class="field_group">
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="name">
-        </div>
+							<div class="service_info--container">
+								<h3 class="service_name">Maintenance & Repairs</h3>
 
-        <div class="field_group">
-          <label for="email">E-mail</label>
-          <input type="text" id="email" name="email">
-        </div>
+								<ul class="service_list">
+									<li class="service_feature">Preventative Maintenance</li>
+									<li class="service_feature">Propt Repairs</li>
+									<li class="service_feature">Quality Contractors</li>
+									<li class="service_feature">Services Coordinator</li>
+									<li class="service_feature">Custom Solutions</li>
+								</ul>
 
-        <div class="field_group">
-          <label for="name">Your Message</label>
-          <textarea name="message" id="message" rows="4"></textarea>
-        </div>
+								<a href="./home-maintenance-repairs.html" class="learn_more"
+									>Learn more</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <button id="contact_btn">send</button>
-      </fieldset>
-    </form>
+		<section id="contact">
+			<div class="contact--container"></div>
+			<h2 class="contact_header">
+				Connect with Your Property Management Experts!
+			</h2>
 
-    <div class="contact_info--container">
-      <ul class="contact_info--list">
-        <li><a href="mailto:presrealty@comcast.com" class="contact_link email_link">presrealty@comcast.com</a></li>
-        <li><a href="tel:301-368-4047" class="contact_link phone_link">301 368 4047</a></li>
-      </ul>
-    </div>
+			<form action="#">
+				<fieldset>
+					<div class="field_group">
+						<label for="name">Full Name</label>
+						<input type="text" id="name" name="name" />
+					</div>
 
-    <footer>
-      <div class="footer_container">
-        <div class="copyright_information">
-          <p class="copyright">All rights reserved. Presidential Realty Inc.</p>
-          <p class="creation">Created by: Victor Lopez</p>
-        </div>
-      </div>
-    </footer>
-  </section>
-</body>
+					<div class="field_group">
+						<label for="email">E-mail</label>
+						<input type="text" id="email" name="email" />
+					</div>
+
+					<div class="field_group">
+						<label for="name">Your Message</label>
+						<textarea name="message" id="message" rows="4"></textarea>
+					</div>
+
+					<button id="contact_btn">send</button>
+				</fieldset>
+			</form>
+
+			<div class="contact_info--container">
+				<ul class="contact_info--list">
+					<li>
+						<a
+							href="mailto:presrealty@comcast.com"
+							class="contact_link email_link"
+							>presrealty@comcast.com</a
+						>
+					</li>
+					<li>
+						<a href="tel:301-368-4047" class="contact_link phone_link"
+							>301 368 4047</a
+						>
+					</li>
+				</ul>
+			</div>
+
+			<footer>
+				<div class="footer_container">
+					<div class="copyright_information">
+						<p class="copyright">
+							All rights reserved. Presidential Realty Inc.
+						</p>
+						<p class="creation">Created by: Victor Lopez</p>
+					</div>
+				</div>
+			</footer>
+		</section>
+	</body>
 </html>
