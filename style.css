@@ -72,7 +72,8 @@ nav {
 	border-radius: 8px;
 }
 
-#home {
+#home,
+#property_management {
 	width: 100%;
 	position: relative;
 	height: calc(100vh - 48px);
@@ -92,6 +93,7 @@ nav {
 	top: 30%;
 	left: 24px;
 	color: #fff;
+	z-index: 80;
 }
 
 .heroe_info--container h1 {
@@ -405,4 +407,20 @@ footer {
 	bottom: -10px;
 	color: #fff;
 	font-size: 12px;
+}
+
+#property_management {
+	position: relative;
+	background-image: url('./assets/property-management-service-image.webp');
+	background-position: center;
+	background-size: cover;
+	border-radius: 16px;
+}
+
+.overlay {
+	position: absolute;
+	inset: 0;
+	background-color: #000;
+	opacity: 0.6;
+	border-radius: 16px;
 }
