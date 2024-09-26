@@ -185,5 +185,71 @@
 				</div>
 			</div>
 		</section>
+
+		<section id="contact">
+			<div class="row contact_row">
+				<form id="contact_form" action="/submit" method="POST">
+					<div class="form_group">
+						<label for="name">Name</label>
+						<input
+							type="text"
+							id="name"
+							name="name"
+							placeholder="Your Name"
+							required
+						/>
+					</div>
+
+					<div class="form_group">
+						<label for="email">Email</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="you@example.com"
+							required
+						/>
+					</div>
+
+					<div class="form_group">
+						<label for="message">Message</label>
+						<textarea
+							id="message"
+							name="message"
+							placeholder="Your message here..."
+							required
+							rows="4"
+						></textarea>
+
+						<button type="submit" class="submit_btn">Submit</button>
+					</div>
+				</form>
+
+				<hr class="contact_line" />
+
+				<h2 class="contact_h2">Lets work together.</h2>
+
+				<div class="contact_info">
+					<a href="tel:240-506-8317" class="phone_number">240.506.8317</a>
+					<a href="mailto:presrealty@comcast.net" class="email"
+						>presrealty@comcast.net</a
+					>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="row footer_row">
+				<ul class="footer_list">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">SERVICES | PRICES</a></li>
+					<li><a href="#">PROPERTY MANAGEMENT</a></li>
+					<li><a href="#">REPAIR & MAINTENANCE</a></li>
+				</ul>
+
+				<p class="copyright">All rights reserved Presidential Realty Inc.</p>
+			</div>
+		</footer>
 	</body>
 </html>
