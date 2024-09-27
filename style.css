@@ -73,7 +73,8 @@ nav {
 }
 
 #home,
-#property_management {
+#property_management,
+#repairs_maintenance {
 	width: 100%;
 	position: relative;
 	height: calc(100vh - 48px);
@@ -98,7 +99,7 @@ nav {
 
 .heroe_info--container h1 {
 	font-size: 64px;
-	margin-bottom: -15px;
+	margin-bottom: 5px;
 }
 
 .heroe_info--container h2 {
@@ -299,6 +300,7 @@ hr {
 	position: relative;
 	display: flex;
 	height: 450px;
+	max-width: 1000px;
 }
 
 #contact_form {
@@ -343,7 +345,7 @@ textarea:focus {
 	transform: rotate(90deg);
 	width: 200px;
 	height: 1px;
-	left: 40%;
+	left: 30%;
 	top: 50%;
 }
 
@@ -409,12 +411,19 @@ footer {
 	font-size: 12px;
 }
 
-#property_management {
+#property_management,
+#repairs_maintenance {
 	position: relative;
-	background-image: url('./assets/property-management-service-image.webp');
 	background-position: center;
 	background-size: cover;
 	border-radius: 16px;
+}
+#property_management {
+	background-image: url('./assets/property-management-service-image.webp');
+}
+
+#repairs_maintenance {
+	background-image: url('./assets/home-repairs-and-maintenance-services.webp');
 }
 
 .overlay {
