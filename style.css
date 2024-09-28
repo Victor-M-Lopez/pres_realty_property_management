@@ -647,9 +647,21 @@ footer {
 
 	.contact_line {
 		transform: rotate(0deg);
-		top: 110%;
+		top: 120%;
 		left: 50%;
 		transform: translateX(-50%);
+	}
+
+	.contact_info {
+		left: 50%;
+		transform: translateX(-50%);
+		top: 125%;
+		align-items: center;
+		width: 100%;
+	}
+
+	.footer_list li a {
+		font-size: 14px;
 	}
 }
 
@@ -661,7 +673,72 @@ footer {
 	.location_text {
 		bottom: -180px;
 	}
+
+	.footer_list li a {
+		font-size: 12px;
+	}
+
+	.footer_list {
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+
+	footer {
+		height: 150px;
+	}
+
+	.copyright {
+		bottom: -80px;
+	}
+
+	.contact_h2 {
+		font-size: 24px;
+		left: 24px;
+		right: 24px;
+		text-align: center;
+		transform: translate(0px);
+	}
 }
 
 @media (max-width: 630px) {
+	.copyright {
+		bottom: -40px;
+	}
+
+	.location_text {
+		font-size: 14px;
+		width: 100%;
+	}
+
+	.heroe_info--container {
+		left: 12px;
+		right: 12px;
+		text-align: center;
+	}
+
+	.heroe_info--container h1 {
+		font-size: 32px;
+	}
+
+	.heroe_info--container h2 {
+		font-size: 16px;
+	}
+
+	.heroe_btn--container {
+		justify-content: center;
+		gap: 12px;
+	}
+
+	.slogan {
+		bottom: 24px;
+		width: 300px;
+		text-align: end;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 430px) {
+	.heroe_info--container h1 {
+		font-size: 24px;
+	}
 }

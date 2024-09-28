@@ -172,11 +172,11 @@
 							<span class="service_price">10% of rent</span>
 
 							<ul class="service_list">
-								<li class="service_info">Reliable Management</li>
-								<li class="service_info">Tenant Relations</li>
-								<li class="service_info">Maintenance & Repairs</li>
-								<li class="service_info">Property Inspections</li>
-								<li class="service_info">Rent Collection</li>
+								<li class="service_info">Reliable management</li>
+								<li class="service_info">Tenant relations</li>
+								<li class="service_info">Maintenance & repairs</li>
+								<li class="service_info">Property inspections</li>
+								<li class="service_info">Rent collection</li>
 							</ul>
 
 							<a
@@ -198,9 +198,9 @@
 							<span class="service_price">Project based</span>
 
 							<ul class="service_list">
-								<li class="service_info">Propt repairs</li>
+								<li class="service_info">Prompt repairs</li>
 								<li class="service_info">Preventative maintenance</li>
-								<li class="service_info">Seasonal Inspections</li>
+								<li class="service_info">Seasonal inspections</li>
 								<li class="service_info">Service coordination</li>
 								<li class="service_info">Renovation and remodeling</li>
 							</ul>
@@ -216,7 +216,16 @@
 
 		<section id="contact">
 			<div class="row contact_row">
-				<form id="contact_form" action="/submit" method="POST">
+				<form
+					id="contact_form"
+					action="https://api.web3forms.com/submit"
+					method="POST"
+				>
+					<input
+						type="hidden"
+						name="access_key"
+						value="498e006a-b4e8-4f87-b6ab-9f5ebabbfb6d"
+					/>
 					<div class="form_group">
 						<label for="name">Name</label>
 						<input
@@ -240,6 +249,17 @@
 					</div>
 
 					<div class="form_group">
+						<label for="phone">phone number</label>
+						<input
+							type="text"
+							id="phone"
+							name="Phone Number"
+							placeholder="123-456-7890"
+							required
+						/>
+					</div>
+
+					<div class="form_group">
 						<label for="message">Message</label>
 						<textarea
 							id="message"
@@ -248,6 +268,12 @@
 							required
 							rows="4"
 						></textarea>
+						<input
+							type="checkbox"
+							name="botcheck"
+							class="hidden"
+							style="display: none"
+						/>
 
 						<button type="submit" class="submit_btn">Submit</button>
 					</div>
