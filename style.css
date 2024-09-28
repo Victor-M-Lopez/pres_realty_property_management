@@ -361,6 +361,7 @@ input,
 textarea {
 	border: none;
 	padding: 8px;
+	font-size: 16px;
 }
 
 input:focus,
@@ -663,6 +664,17 @@ footer {
 	.footer_list li a {
 		font-size: 14px;
 	}
+
+	.description {
+		flex-direction: column;
+		align-items: center;
+		height: 600px;
+		justify-content: center;
+	}
+
+	.text--container p {
+		text-align: center;
+	}
 }
 
 @media (max-width: 700px) {
@@ -708,6 +720,7 @@ footer {
 	.location_text {
 		font-size: 14px;
 		width: 100%;
+		bottom: -220px;
 	}
 
 	.heroe_info--container {
@@ -733,6 +746,19 @@ footer {
 		bottom: 24px;
 		width: 300px;
 		text-align: end;
+		font-size: 14px;
+	}
+
+	.about_us--para {
+		width: 100%;
+	}
+
+	.text--container {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.final_statement {
 		font-size: 14px;
 	}
 }
