@@ -39,13 +39,22 @@ button:hover {
 }
 
 nav {
-	background-color: #000;
 	position: fixed;
 	top: 32px;
 	left: 32px;
 	right: 32px;
 	border-radius: 16px;
 	z-index: 100;
+	transition: background-color 300ms ease;
+}
+
+.invisible {
+	background-color: transparent;
+}
+
+nav.solid {
+	background-color: #000;
+	opacity: 1;
 }
 
 .nav_container {
@@ -329,7 +338,7 @@ hr {
 #contact {
 	background-color: #e8e8e8;
 	width: 100%;
-	height: 450px;
+	height: 600px;
 	border-radius: 16px;
 }
 
@@ -345,7 +354,7 @@ hr {
 	width: 50%;
 	max-width: 500px;
 	padding: 8px;
-	top: 50%;
+	top: 65%;
 	right: 24px;
 	transform: translateY(-50%);
 }
@@ -648,7 +657,7 @@ footer {
 
 	.contact_line {
 		transform: rotate(0deg);
-		top: 120%;
+		top: 126%;
 		left: 50%;
 		transform: translateX(-50%);
 	}
@@ -656,7 +665,7 @@ footer {
 	.contact_info {
 		left: 50%;
 		transform: translateX(-50%);
-		top: 125%;
+		top: 130%;
 		align-items: center;
 		width: 100%;
 	}
@@ -766,5 +775,22 @@ footer {
 @media (max-width: 430px) {
 	.heroe_info--container h1 {
 		font-size: 24px;
+	}
+
+	#company_logo {
+		width: 20px;
+	}
+
+	.grid_img {
+		width: 20px;
+	}
+
+	.nav_container {
+		padding: 12px 24px;
+	}
+
+	nav {
+		left: 24px;
+		right: 24px;
 	}
 }
