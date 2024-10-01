@@ -45,16 +45,19 @@ nav {
 	right: 32px;
 	border-radius: 16px;
 	z-index: 100;
-	transition: background-color 300ms ease;
+	transition: background-color 300ms ease-in-out, position 500ms ease-in-out;
 }
 
-.invisible {
-	background-color: transparent;
-}
-
-nav.solid {
+.solid {
 	background-color: #000;
-	opacity: 1;
+	transition: all 300ms ease-in-out;
+}
+
+.sticky-nav {
+	position: sticky;
+	top: 12px;
+	margin: 0 32px;
+	transition: all 500ms ease-in-out;
 }
 
 .nav_container {
