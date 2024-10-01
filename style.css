@@ -45,7 +45,7 @@ nav {
 	right: 32px;
 	border-radius: 16px;
 	z-index: 100;
-	transition: background-color 300ms ease-in-out, top 300ms ease-in-out;
+	transition: background-color 500ms ease-in-out, top 100ms ease-in-out;
 }
 
 .solid {
@@ -639,7 +639,7 @@ footer {
 	}
 
 	#contact {
-		height: 650px;
+		height: 700px;
 	}
 
 	.contact_h2 {
@@ -656,7 +656,7 @@ footer {
 
 	.contact_line {
 		transform: rotate(0deg);
-		top: 126%;
+		top: 130%;
 		left: 50%;
 		transform: translateX(-50%);
 	}
@@ -664,7 +664,7 @@ footer {
 	.contact_info {
 		left: 50%;
 		transform: translateX(-50%);
-		top: 130%;
+		top: 135%;
 		align-items: center;
 		width: 100%;
 	}
