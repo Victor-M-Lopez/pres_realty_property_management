@@ -45,15 +45,53 @@ nav {
 	right: 32px;
 	border-radius: 16px;
 	z-index: 100;
-	transition: background-color 500ms ease-in-out, top 100ms ease-in-out;
+	background-color: #000;
+	height: 60px;
+	transition: top 300ms ease-in-out, height 500ms ease;
 }
 
-.solid {
-	background-color: #000;
+.nav_modal {
+	margin-top: 0px;
+	height: 0px;
+	visibility: hidden;
+	opacity: 0;
+	transition: margin-top 600ms ease-in-out, height 400ms ease-in-out,
+		visibility 200ms ease-in-out, opacity 500ms ease-in-out;
+}
+
+.nav_modal--visible {
+	margin-top: 100px;
+	height: 50%;
+	visibility: visible;
+	opacity: 1;
+}
+
+.nav_modal--list {
+	text-align: end;
+	margin-right: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.nav_modal--link {
+	text-align: end;
+	color: #fff;
 }
 
 .high-nav {
 	top: 12px;
+}
+
+.exit_btn {
+	position: absolute;
+	top: 12px;
+	right: 24px;
+	background-color: transparent;
+	border: none;
+	color: var(--bright-red);
+	font-size: 32px;
+	font-weight: 500;
 }
 
 .nav_container {
