@@ -10,17 +10,56 @@
 	<body>
 		<nav>
 			<div class="nav_container">
-				<img
-					src="./assets/presidential-realty-logo.svg"
-					alt="presidential realty logo"
-					id="company_logo"
-				/>
-
+				<a href="/index.html#home">
+					<img
+						src="./assets/presidential-realty-logo.svg"
+						alt="presidential realty logo"
+						id="company_logo"
+					/>
+				</a>
 				<ul class="nav_list">
-					<li class="nav_link"><a href="#">HOME</a></li>
-					<li class="nav_link"><a href="#">ABOUT US</a></li>
-					<li class="nav_link"><a href="#">SERVICES | PRICES</a></li>
-					<li class="nav_link"><a href="#" class="contact_link">CONTACT</a></li>
+					<li class="nav_link"><a href="/index.html#home">HOME</a></li>
+					<li class="nav_link"><a href="/index.html#about">ABOUT US</a></li>
+					<li class="nav_link">
+						<a href="/index.html#services-prices">SERVICES | PRICES</a>
+					</li>
+					<li class="nav_link">
+						<a href="#contact" class="contact_link">CONTACT</a>
+					</li>
+				</ul>
+
+				<button id="hamburger_btn">
+					<img
+						src="./assets/grid-icon.svg"
+						alt="grid icon for hamburger menu"
+						class="grid_img"
+					/>
+				</button>
+			</div>
+
+			<div class="nav_modal">
+				<button class="exit_btn">X</button>
+				<ul class="nav_modal--list">
+					<li><a href="/index.html#home" class="nav_modal--link">HOME</a></li>
+					<li>
+						<a href="/index.html#about" class="nav_modal--link">ABOUT US</a>
+					</li>
+					<li>
+						<a href="/index.html#services-prices" class="nav_modal--link"
+							>SERVICES | PRICES</a
+						>
+					</li>
+					<li><a href="#contact" class="nav_modal--link">CONTACT</a></li>
+					<li>
+						<a href="/property-management-services.html" class="nav_modal--link"
+							>PROPERTY MANAGEMENT</a
+						>
+					</li>
+					<li>
+						<a href="/home-maintenance-repairs.html" class="nav_modal--link"
+							>REPAIR & MAINTENANCE</a
+						>
+					</li>
 				</ul>
 			</div>
 		</nav>
@@ -239,7 +278,16 @@
 
 		<section id="contact">
 			<div class="row contact_row">
-				<form id="contact_form" action="/submit" method="POST">
+				<form
+					id="contact_form"
+					action="https://api.web3forms.com/submit"
+					method="POST"
+				>
+					<input
+						type="hidden"
+						name="access_key"
+						value="498e006a-b4e8-4f87-b6ab-9f5ebabbfb6d"
+					/>
 					<div class="form_group">
 						<label for="name">Name</label>
 						<input
@@ -263,6 +311,17 @@
 					</div>
 
 					<div class="form_group">
+						<label for="phone">phone number</label>
+						<input
+							type="text"
+							id="phone"
+							name="Phone Number"
+							placeholder="123-456-7890"
+							required
+						/>
+					</div>
+
+					<div class="form_group">
 						<label for="message">Message</label>
 						<textarea
 							id="message"
@@ -271,6 +330,12 @@
 							required
 							rows="4"
 						></textarea>
+						<input
+							type="checkbox"
+							name="botcheck"
+							class="hidden"
+							style="display: none"
+						/>
 
 						<button type="submit" class="submit_btn">Submit</button>
 					</div>
@@ -292,11 +357,15 @@
 		<footer>
 			<div class="row footer_row">
 				<ul class="footer_list">
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">SERVICES | PRICES</a></li>
-					<li><a href="#">PROPERTY MANAGEMENT</a></li>
-					<li><a href="#">REPAIR & MAINTENANCE</a></li>
+					<li><a href="/index.html#home">HOME</a></li>
+					<li><a href="/index.html#about">ABOUT</a></li>
+					<li><a href="/index.html#services-prices">SERVICES | PRICES</a></li>
+					<li>
+						<a href="/property-management-services.html">PROPERTY MANAGEMENT</a>
+					</li>
+					<li>
+						<a href="/home-maintenance-repairs.html">REPAIR & MAINTENANCE</a>
+					</li>
 				</ul>
 
 				<p class="copyright">All rights reserved Presidential Realty Inc.</p>
