@@ -677,10 +677,6 @@ footer {
 		align-items: center;
 	}
 
-	#contact {
-		height: 700px;
-	}
-
 	.contact_h2 {
 		left: 50%;
 		transform: translateX(-50%);
