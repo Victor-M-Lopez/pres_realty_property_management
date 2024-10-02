@@ -13,15 +13,15 @@ const navModal = document.querySelector('.nav_modal');
 let exitBtn = document.querySelector('.exit_btn');
 
 navBtn.addEventListener('click', function () {
-	navModal.classList.toggle('nav_modal--visible');
+	navModal.classList.add('nav_modal--visible');
 	navBar.style.height = '500px';
 	navBtn.style.visibility = 'hidden';
 	exitBtn.style.visibility = 'visible';
 });
 
 exitBtn.addEventListener('click', function () {
-	navModal.classList.toggle('nav_modal--visible');
-	navBar.style.height = '';
+	navModal.classList.remove('nav_modal--visible');
+	navBar.style.height = '62px';
 	navBtn.style.visibility = 'visible';
 	exitBtn.style.visibility = 'hidden';
 });

@@ -8,43 +8,6 @@
 		<script src="script.js" defer></script>
 	</head>
 	<body>
-		<nav>
-			<div class="nav_container">
-				<img
-					src="./assets/presidential-realty-logo.svg"
-					alt="presidential realty logo"
-					id="company_logo"
-				/>
-
-				<ul class="nav_list">
-					<li class="nav_link"><a href="#">HOME</a></li>
-					<li class="nav_link"><a href="#">ABOUT US</a></li>
-					<li class="nav_link"><a href="#">SERVICES | PRICES</a></li>
-					<li class="nav_link"><a href="#" class="contact_link">CONTACT</a></li>
-				</ul>
-
-				<button id="hamburger_btn">
-					<img
-						src="./assets/grid-icon.svg"
-						alt="grid icon for hamburger menu"
-						class="grid_img"
-					/>
-				</button>
-			</div>
-
-			<div class="nav_modal">
-				<button class="exit_btn">X</button>
-				<ul class="nav_modal--list">
-					<li><a href="#" class="nav_modal--link">HOME</a></li>
-					<li><a href="#" class="nav_modal--link">ABOUT US</a></li>
-					<li><a href="#" class="nav_modal--link">SERVICES | PRICES</a></li>
-					<li><a href="#" class="nav_modal--link">CONTACT</a></li>
-					<li><a href="#" class="nav_modal--link">PROPERTY MANAGEMENT</a></li>
-					<li><a href="#" class="nav_modal--link">REPAIR & MAINTENANCE</a></li>
-				</ul>
-			</div>
-		</nav>
-
 		<section id="home">
 			<video
 				src="./assets/neighborhood-residential-homes.mp4"
@@ -61,8 +24,8 @@
 				<h2>Leading Your Property to Excellence</h2>
 
 				<div class="heroe_btn--container">
-					<a href="" id="prices">See prices</a>
-					<a href="" id="manage_property">Manage property</a>
+					<a href="#services-prices" id="prices">See prices</a>
+					<a href="#contact" id="manage_property">Manage property</a>
 				</div>
 			</div>
 
@@ -70,6 +33,59 @@
 				Excellence in Property Management Decades in the Making
 			</h3>
 		</section>
+		<nav>
+			<div class="nav_container">
+				<a href="#home">
+					<img
+						src="./assets/presidential-realty-logo.svg"
+						alt="presidential realty logo"
+						id="company_logo"
+					/>
+				</a>
+				<ul class="nav_list">
+					<li class="nav_link"><a href="#home">HOME</a></li>
+					<li class="nav_link"><a href="#about">ABOUT US</a></li>
+					<li class="nav_link">
+						<a href="#services-prices">SERVICES | PRICES</a>
+					</li>
+					<li class="nav_link">
+						<a href="#contact" class="contact_link">CONTACT</a>
+					</li>
+				</ul>
+
+				<button id="hamburger_btn">
+					<img
+						src="./assets/grid-icon.svg"
+						alt="grid icon for hamburger menu"
+						class="grid_img"
+					/>
+				</button>
+			</div>
+
+			<div class="nav_modal">
+				<button class="exit_btn">X</button>
+				<ul class="nav_modal--list">
+					<li><a href="#home" class="nav_modal--link">HOME</a></li>
+					<li><a href="#about" class="nav_modal--link">ABOUT US</a></li>
+					<li>
+						<a href="#services-prices" class="nav_modal--link"
+							>SERVICES | PRICES</a
+						>
+					</li>
+					<li><a href="#contact" class="nav_modal--link">CONTACT</a></li>
+					<li>
+						<a href="/property-management-services.html" class="nav_modal--link"
+							>PROPERTY MANAGEMENT</a
+						>
+					</li>
+					<li>
+						<a href="/home-maintenance-repairs.html" class="nav_modal--link"
+							>REPAIR & MAINTENANCE</a
+						>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
 		<section id="about">
 			<div class="container">
