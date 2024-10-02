@@ -47,7 +47,6 @@ nav {
 	border-radius: 16px;
 	z-index: 100;
 	background-color: #000;
-	height: 62px;
 	transition: top 300ms ease-in-out, height 800ms ease;
 }
 
@@ -825,7 +824,7 @@ footer {
 	}
 
 	.nav_container {
-		padding: 12px 24px;
+		padding: 18px 24px;
 	}
 
 	nav {
